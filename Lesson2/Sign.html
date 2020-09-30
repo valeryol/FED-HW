@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pole Exotic</title>
+    </head>
+    <body>
+        <section>
+            <h1 align="center">
+                Запись на занятие
+            </h1>
+        </section>
+        <section>
+            <form action="###">
+                <h3>Заполните данные:</h3>
+                <input type="text" value="Имя" name="name" required="true"> 
+                <input type="text" value="Фамилия" name="surname" required="true"><br/>
+                <br/>
+                <span>Телефон:</span>
+                <input type="number" value="Телефон" name="phone" required="true" minlength="10" maxlength="12"><br/>
+                <br/>
+                <span>Email:</span>
+                <input type="email" name="email"> <br/>
+                <br/>
+                <div>
+                    <span>Выберите направление:</span> <br/>
+                        <label>
+                            Pole Dance
+                            <input type="checkbox" name="lesson" value="PD"/>
+                        </label>
+                        <br/>
+                        <label>
+                            Pole Exotic
+                            <input type="checkbox" name="lesson" value="PE"/>
+                         </label>
+                        <br/>
+                        <label>
+                            Pole Art
+                            <input type="checkbox" name="lesson" value="PA"/>
+                        </label>
+                        <br/>
+                        <br/>
+                </div>
+                <div>
+                    <span>Выберите дату:</span>
+                    <input type="date"> <br/>
+                    <br/>
+                </div>
+                <div>
+                    <span>Выберите студию:</span>
+                    <select name="studio" >
+                        <option value="Podil">ул. Братская 15/9 (м. Контрактовая площадь)</option>
+                        <option value="Pozniaky">ул. Б.Гмыри 13 (м. Позняки)</option>
+                        <option value="Lesnaya">ул. Киото 27 (м. Лесная)</option>
+                    </select>
+                    <br/>
+                </div>
+                <br/>
+                <div>
+                    Остались ли у Вас какие-либо вопросы? <br/>
+                    <label>
+                        <input type="radio" name="call" value="yes">
+                        Да, перезвоните мне по указаному номеру.
+                    </label>
+                    <br/>
+                    <label>
+                        <input type="radio" name="call" value="no">
+                        Нет, все и так понятно.
+                    </label>
+                </div>
+                <br/>
+                <br/>
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </section>
+    </body>
+</html>
