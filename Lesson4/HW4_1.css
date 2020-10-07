@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+/* Задание 1.1. Шторка */
+/* .img-block {
+    width: 500px;
+    height: 500px;
+    background-image: url("fon.jpg");
+    background-size: cover;
+    background-position: right;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+.inner-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left;
+} */
+
+/* Задание 1.2. Шторка+Центр */
+/* .img-block {
+    width: 500px;
+    height: 500px;
+    background-image: url("fon.jpg");
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+.overlay {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  opacity: 0.5;
+}
+.inner-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+} */
+/* 2 вариант отцентровки */
+ /* top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; */
+
+/* Задание 2 с двумя блоками*/
+/* .main {
+    width: 1000px;
+    height: 500px;
+    background-color: grey;
+}
+.box1 {
+    width: 250px;
+    background-color: red;
+    float: left;
+    margin-right: 50%;
+}
+.box2 {
+    width: 250px;
+    background-color: gold;
+    float: left;
+
+}
+.clearfix {
+    clear: both;
+} */
+
+/* Задание 2 с 4-ма блоками */
+.container {
+    width: 1000px;
+    height: 500px;
+    background-color: grey;
+    margin: auto;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 230px;
+    height: 130px;
+    background-color: gold;
+    float: left;
+}
+.box1 {
+    margin-right: 26.66px;
+}
+.box2 {
+    margin-right: 26.66px;
+}
+.box4 {
+    margin-left: 770px;
+    margin-top: -130px;
+}
+clearfix {
+    clear: both;
+} 
