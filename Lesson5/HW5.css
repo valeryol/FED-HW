@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix {
+    clear: both;
+}
+
+.top-dest-sect {
+    width: 1200px;
+    height: 1320px;
+    /* background-color: gray; */
+    margin: 0 auto;
+}
+
+.top-dest-text {
+    width: 100%;
+    height: 330px;
+    /* background-color: green; */
+    position: relative;
+}
+.explore,
+.explore-text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.explore {
+    width: 100%;
+    /* background-color: mediumpurple; */
+    bottom: 37.879%;
+    font-family: 'Raleway Regular', arial;
+    font-size: 30pt;
+    font-stretch: 28pt;
+    line-height: 28pt;
+    color: #343434;
+}
+
+.explore-text {
+    width: 100%;
+    /* background-color: red; */
+    bottom: 25%;
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+}
+
+.shadow_S {
+    width: 100%;
+    height: 50%;
+    background-image: url("IMG/Shadow_S.png");
+    position: absolute;
+    bottom: 0;
+}
+.shadow_XS {
+    width: 100%;
+    height: 50%;
+    background-image: url("IMG/Shadow_XS.png");
+    position: absolute;
+    bottom: 0;
+}
+.row1,
+.row2 {
+    float: left;
+}
+.col-4 {
+    width: 33.333%;
+    /* background-color: maroon; */
+    float: left;
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: 66.667%;
+    /* background-color: lightseagreen; */
+    float: left;
+    padding: 0 15px;
+}
+.foz {
+    width: 770px;
+    height: 360px;
+    background-image: url("IMG/Foz.png");
+    position: relative;
+    z-index: 0;
+}
+.ibiza,
+.palma,
+.portofino,
+.hercules {
+    width: 370px;
+    height: 360px;
+    position: relative;
+    z-index: 0;
+}
+.ibiza {
+    background-image: url("IMG/Ibiza.png");
+}
+.palma {
+    background-image: url("IMG/Palma.png");
+}
+.portofino {
+    background-image: url("IMG/Portofino.png");
+}
+.hercules {
+    background-image: url("IMG/Hercules.png");
+}
+.boat_but_foz,
+.boat_text_foz {
+    z-index: 1;
+    position: absolute;
+}
+.boat_but_foz {
+    width: 10.39%;
+    height: 11.11%;
+    background-color: #e7434e;
+    left: 3.247%;
+    top: 8.333%;
+    border-radius: 5px;
+}
+.small_boat {
+    width: 20%;
+    height: 40%;
+    background-image: url("IMG/sailboat\ kopia.png");
+    position: absolute;
+    left: 15%;
+    bottom: 30%;
+}
+.ammount_boat {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+}
+.boat_text_foz {
+    /* background-color: gold; */
+    position: absolute;
+    bottom: 8.333%;
+    left: 3.247%;
+}
+
+.boat_but,
+.boat_text {
+    z-index: 1;
+    position: absolute;
+}
+.boat_but {
+    width: 21.622%;
+    height: 11.111%;
+    background-color: #e7434e;
+    border-radius: 5px;
+    top: 8.333%;
+    left: 7.297%;
+}
+.boat_text {
+    position: absolute;
+    bottom: 8.333%;
+    left: 8.108%;
+}
+.Place,
+.country {
+    font-family: 'Raleway Regular', arial;
+    color: #ffffff;
+}
+.Place {
+    font-size: 24pt;
+}
+.country {
+    font-size: 18pt;
+}
+
+.button {
+    position: relative;
+    height: 17.803%;
+    width: 100%;
+}
+button {
+    width: 25.833%;
+    height: 25.532%;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Myriad Pro', arial;
+    font-size: 14pt;
+    color: #343434;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
