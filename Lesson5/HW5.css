@@ -127,7 +127,10 @@
 .ammount_boat {
     position: absolute;
     left: 50%;
-    bottom: 30%;
+    top: 17%;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
 }
 .boat_text_foz {
     /* background-color: gold; */
